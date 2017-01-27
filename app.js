@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var index = require('./routes/index');
 var contacts = require('./routes/contacts');
 
-var MongoURI = 'mongodb://root:password@ds161008.mlab.com:61008/coen3463-t0'
+var MongoURI = 'mongodb://mod2:rudeemman@ds161048.mlab.com:61048/student'
 
 mongoose.connect(MongoURI, function(err, res) {
     if (err) {
