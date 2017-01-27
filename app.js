@@ -17,7 +17,7 @@ mongoose.connect(MongoURI, function(err, res) {
     } else {
         console.log('MongoDB connected!');
     }
-});
+}); 
 
 var app = express();
 
